@@ -8,20 +8,35 @@ Subject is a number between 1 and 30,  representing 30 volunteers.
 There are six activities for each volunteers.
 
 laying  
+
 sitting
+
 standing
+
 walking
+
 walkingdownstairs 
+
 walkingupstairs 
+
 
 The remaining 66 columns contaning character or string repsent different meaning as following: 
 "t" -"time"
+
 "f" - "frequency domain signal"
+
 "BodyAcc" - body acceleration
+
 "GravityAcc" - gravity acceleration
+
 "Gyro" - angular velocity measured by the gyroscope
+
 "Mag" - magnitude
+
 "Jerk" -acceleration of the acceleration
+
  "Mean"  -average
+ 
  "StdDev" -standard deviation
+ 
  "X", "Y", or "Z" represents motion in those respective directions
