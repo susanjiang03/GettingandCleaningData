@@ -22,9 +22,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 #Contents
 
-#run_analysis.R  
+##run_analysis.R  
  It does the following:
-#Step One
+###Step One
 1.Merges the training and the test sets to create one data set.
 
 Loads all the various data sets into R 
@@ -34,24 +34,23 @@ subject_train to Strain  subject_test to Stest , combined in  Subject
 
 combines them into 1 data frame, of dimension 563x10299 
 
-#Step Two
+###Step Two
 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
 load feature.text
 Uses grep() to subset the data frame to include columns with "mean()" or "std()"
 Uses gsub() to clean up the column names
 
-#Step Three
+###Step Three
 3.Uses descriptive activity names to name the activities in the data set
 
 replace the activiy colum by sbstr()function
 
-#Step Four
+###Step Four
 
 4.Appropriately labels the data set with descriptive variable names. 
 
-#Step Five
+###Step Five
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
 
 
 #codebook.md
