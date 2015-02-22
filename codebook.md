@@ -7,17 +7,7 @@ Subject is a number between 1 and 30,  representing 30 volunteers.
 
 There are six activities for each volunteers.
 
-laying  
-
-sitting
-
-standing
-
-walking
-
-walkingdownstairs 
-
-walkingupstairs 
+WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 
 The remaining 66 columns contaning character or string repsent different meaning as following: 
